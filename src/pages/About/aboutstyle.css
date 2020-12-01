@@ -1,0 +1,46 @@
+body {
+    font-size: 15px;
+    color: black;  
+    background-color: lightsteelblue;
+  }
+  
+.bg-light {
+    background-color: lavender !important;
+  }
+  
+  /* Change the color of links on hover*/
+  a:hover  { 
+    background:blue;
+    color:black;
+    transition: .10s;
+  } 
+
+.container-body {
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 40px;
+    width: 90%; 
+    margin-top: 145px;    
+    margin-left: 65px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    border-style: inset;
+    background-color: deepskyblue;
+    justify-content: center;
+    text-align: center; 
+}
+
+
+hr {
+    border-top: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 15px; 
+    width: 92%; 
+}
+
+.bio {
+    text-align: left;
+    word-spacing: normal;
+    white-space: pre-wrap;
+}
