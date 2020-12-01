@@ -38,16 +38,12 @@ function Home() {
                     <hr className="socialhr"/>
                     <h2 className="connect">Connect</h2>                
                 </Col>
-                <Col size="md-4"></Col>
-                <Col size="md-4 social">
                 
-                    {/* <Anchor href={"https://www.linkedin.com/in/wendy-hintzen-999b7583/"} target="_blank" rel="noreferrer" class="fa fa-linkedin">  - LinkedIn </Anchor>                                    */}
+                <Col size="md-4"></Col>
+                <Col size="md-4 social">             
                     <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
                 </Col>
-                <Col size="md-4"></Col>
-                {/* <Col size="md-12">
-                    <SocialIcon className="social" url="https://linkedin.com/in/wendy-hintzen-999b7583/" label="My LinkedIn" />               
-                </Col> */}
+                <Col size="md-4"></Col>                
         </Row>
        </> 
     );
