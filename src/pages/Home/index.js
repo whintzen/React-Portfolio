@@ -4,7 +4,7 @@ import Col from  "../../components/Col";
 import Row from "../../components/Row";
 // import Anchor from "../../components/Anchor";
 import { SocialIcon } from 'react-social-icons';
-import "./style.css";
+import "./homestyle.css";
 
 function Home() {
     return(
@@ -18,6 +18,14 @@ function Home() {
                 <Col size="md-12">                                       
                     <img src={"./assets/images/IMG_4628.jpg"} alt="MyPicture" 
                         className="img-fluid"/>             
+                </Col>
+                <Col size="md-12">
+                    <p>
+                    Collaborative Software DeliveryManager/Project Lead with expertise building mature agile teams that deliver quality on-deadline products that drive 
+                    corporative objectives. Facilitates continuous improvement across all levels of the organization.  Servant leader adept at creating self-directed 
+                    teams and positive team cultures. 
+                    Certified Scrum Master(CSM)and SAFe Advance Scrum Master(SASM)
+                    </p>
                 </Col>
             </Row>
             
