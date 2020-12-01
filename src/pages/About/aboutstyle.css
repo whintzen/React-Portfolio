@@ -3,7 +3,7 @@ body {
     color: black;  
     background-color: lightsteelblue;
   }
-  
+
 .bg-light {
     background-color: lavender !important;
   }
@@ -44,3 +44,43 @@ hr {
     word-spacing: normal;
     white-space: pre-wrap;
 }
+
+.socialhr {
+    width: 95%;
+  }
+  
+  .connect {
+    text-align: center ;
+  }
+  
+  /* set the font size of the Social Media Letters */
+  .col-social {
+    padding-left: 185px;
+    font-size: 15px; 
+    justify-content: center;  
+  }
+    
+    /* Set the LinkedIn effects */
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;   
+  }
+      
+      /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+   /* Set a specific color for each brand */
+    
+    /* LinkedIn */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+      
+  }
