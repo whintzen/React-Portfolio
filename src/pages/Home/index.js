@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Col from  "../../components/Col";
 import Row from "../../components/Row";
@@ -10,7 +11,8 @@ import "./homestyle.css";
 function Home() {
 
     return(
-        <>       
+        <> 
+        <Navbar />      
         <Container>
             <Row>
                 <Col size="lg-12">                     

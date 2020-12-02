@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col";
@@ -6,7 +7,8 @@ import "./aboutstyle.css";
 
 function About() {
     return (
-        <div> 
+        <div>
+           <Navbar />  
            <Container> 
              <Row>
                 <Col size="lg-12">                     
@@ -31,20 +33,14 @@ function About() {
                 <Col size="lg-6">
                               
                     <p id="Contact"> <strong>Contact Info:</strong></p>
-                    {/* <ul>                             */}
-                        {/* <li><strong>Email:</strong> <a href="/">wpah@comcast.net</a></li>
-                        <li><strong>Telephone:</strong> <a href="/">973-673-2555</a></li>
-                        <li><strong>Resume:</strong> <a href="./assets/resume/Wendy_Hintzen.pdf" target="_blank" rel="noreferrer" alt="wendyresume">Wendy Hintzen's Resume</a></li>
-                        <li><strong>GitHub:</strong> <a href="https://github.com/whintzen" target="_blank" rel="noreferrer">github.com/whintzen</a></li>  */}
-                    {/* </ul> */}
                     <ul>
-                        <strong>Email:</strong> <a href="/">wpah@comcast.net</a>
+                        <strong>Email:</strong> <a id="mediumblue" href="/">wpah@comcast.net</a>
                         <br />
-                        <strong>Telephone:</strong> <a href="/">973-673-2555</a>
+                        <strong>Telephone:</strong> <a id="mediumblue" href="/">973-673-2555</a>
                         <br />
-                        <strong>Resume:</strong> <a href="./assets/resume/Wendy_Hintzen.pdf" target="_blank" rel="noreferrer" alt="wendyresume">Wendy Hintzen's Resume</a>
+                        <strong>Resume:</strong> <a id="mediumblue" href="./assets/resume/Wendy_Hintzen.pdf" target="_blank" rel="noreferrer" alt="wendyresume">Wendy Hintzen's Resume</a>
                         <br />
-                        <strong>GitHub:</strong> <a href="https://github.com/whintzen" target="_blank" rel="noreferrer" alt="Github">github.com/whintzen</a> 
+                        <strong>GitHub:</strong> <a id="mediumblue" href="https://github.com/whintzen" target="_blank" rel="noreferrer" alt="Github">github.com/whintzen</a> 
                     </ul>
                 
                 </Col>
