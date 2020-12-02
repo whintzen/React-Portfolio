@@ -91,11 +91,12 @@ function Portfolio() {
                             the one you would like to devour by Clicking the Devour It button</strong></p>
                         <div class="project">
                             <ul>                            
-                                <strong id="mediumblue">Deployed:</strong> <a href="/" 
-                                    id="antiquewhite" target="_blank" rel="noreferrer" alt="Deploy">This is a Handlebars project, so no HTML file to Deploy. Click on Repository Only</a>
+                               <strong id="mediumblue">Deployed:</strong> <a href="/" 
+                                    id="deploytext" target="_blank" rel="noreferrer" alt="Deploy">This is a Handlebars project, 
+                                    so no HTML file to Deploy. Click on Repository Only</a>
                                 <br />
-                                <strong id="mediumblue">Repository:</strong> <a href="https://github.com/whintzen/Burger.git"                                 
-                                    id="antiquewhite" target="_blank" rel="noreferrer" alt="Repository">GitHub Repository</a>                                
+                              <strong id="mediumblue">Repository:</strong> <a href="https://github.com/whintzen/Burger.git"                                 
+                                    id="antiquewhite" target="_blank" rel="noreferrer" alt="Repository">GitHub Repository</a>                               
                             </ul>
                         </div>
                     </Col >

@@ -5,37 +5,32 @@ body {
     font-size: 15px;
     color: black;    
     background-color: lightsteelblue;
-  }
+}
   
   /* set the padding for the page */
-  .padding {
+.padding {
     padding: 20px;
-  }
+}
 
-  /* .navbar {
-    
-    display: block;
-    text-decoration: none; 
-  }  */
-
+  
   /* Set the spacing between the links */
-  .navbar ul {
+.navbar ul {
     padding-right: 15px;
     margin-right: 15px;
     font-size:  15px;
-  }  
+}  
 
-  .bg-light {  
+.bg-light {  
     background-color: lavender !important;
-  }
+}
   
-  a:hover  { 
+a:hover  { 
     background:blue;
     color:black;
     transition: .10s;
-  } 
-  
-  .container-body {
+} 
+
+.container-body {
     min-height: 100%;
     overflow: auto;
     padding-bottom: 40px;
@@ -47,7 +42,7 @@ body {
     border-style: inset;
     background-color: deepskyblue;  
     text-align: center;
-  }
+}
 
 #Portfolio {
     text-align: center;
@@ -63,12 +58,18 @@ color: mediumblue;
   color: antiquewhite;   
 }
 
-.generator  {
-  width: 900px;
-  height: 600px; 
-   
+#deploytext {
+    color: black;
 }
 
+.generator  {
+  width: 900px;
+  height: 600px;
+}
+
+.project ul {
+    text-align: center;
+}
 .codequiz {
    width: 900px;
    height: 600px;   
