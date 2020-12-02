@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col";
+import Footer from "../../components/Footer";
 import "./portfoliostyle.css";
 
 
@@ -119,6 +120,7 @@ function Portfolio() {
                     </Col>
                     <Col size="md-4"></Col>                
                 </Row>
+                <Footer />
 
         </div>
     );  
