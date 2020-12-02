@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Col from  "../../components/Col";
 import Row from "../../components/Row";
+import Footer from "../../components/Footer";
 import "./homestyle.css";
 
 function Home() {
@@ -32,18 +33,19 @@ function Home() {
             </Row>
             
         </Container>
-        <Row className="text-center">
-                <Col size="md-12">                
-                    <hr className="socialhr"/>
-                    <h2 className="connect">Connect</h2>                
-                </Col>
-                
-                <Col size="md-4"></Col>
-                <Col size="md-4 social">             
-                    <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
-                </Col>
-                <Col size="md-4"></Col>                
-        </Row>
+            <Row className="text-center">
+                    <Col size="md-12">                
+                        <hr className="socialhr"/>
+                        <h2 className="connect">Connect</h2>                
+                    </Col>
+                    
+                    <Col size="md-4"></Col>
+                    <Col size="md-4 social">             
+                        <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
+                    </Col>
+                    <Col size="md-4"></Col>                
+            </Row>
+            <Footer />
        </> 
     );
 }

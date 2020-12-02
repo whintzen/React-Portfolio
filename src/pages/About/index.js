@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Row from "../../components/Row";
 import Col from "../../components/Col";
+import Footer from "../../components/Footer";
 import "./aboutstyle.css";
 
 function About() {
@@ -57,7 +58,8 @@ function About() {
                         <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
                     </Col>
                     <Col size="md-4"></Col>                
-                </Row>     
+                </Row>
+                <Footer />     
         </div>
      );
 }

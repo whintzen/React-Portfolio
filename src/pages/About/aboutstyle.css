@@ -71,10 +71,11 @@ hr {
   
   /* set the font size of the Social Media Letters */
   .col-social {
-    padding-left: 187px;
     font-size: 15px; 
-    justify-content: center;  
-  }
+    text-align: center;
+    display: inline-block;
+   
+}
     
     /* Set the LinkedIn effects */
   .fa {
@@ -84,7 +85,7 @@ hr {
     height: 50px;
     text-align: center;
     text-decoration: none;
-    justify-content: center;   
+    /* justify-content: center;    */
   }
       
       /* Add a hover effect */
