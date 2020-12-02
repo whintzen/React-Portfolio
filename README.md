@@ -1,4 +1,4 @@
-# :memo: Unit 20 React Homework: React Portfolio :calendar:
+# :sweat_drops: Unit 20 React Homework: React Portfolio :dizzy:
   
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
@@ -6,7 +6,7 @@
 
 ## Description 
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Update my Portfolio using React.  
 
 ## Table of Contents
 
