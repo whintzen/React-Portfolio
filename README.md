@@ -49,7 +49,7 @@ Users can use the repo, but please do not delete any code.
     [Repository](https://github.com/whintzen/React-Portfolio)
   
 * Deployed Application: 
-    [Github gh-Pages ](https://whintzen.github.io/Employee-Directory)
+    [Github gh-Pages ](https://whintzen.github.io/React-Portfolio)
     
 ## Questions
 
