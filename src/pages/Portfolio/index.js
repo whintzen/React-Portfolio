@@ -34,7 +34,7 @@ function Portfolio() {
                     </Col>
                     <br />
                     <Col size="lg-12">
-                        <img src="./assets/images/Generator.png" alt="Generator" className="generator"/>
+                        <img src="./assets/images/Generator1.png" alt="Generator" className="generator"/>
                     </Col>
                 </Row>
                    <br/> 
@@ -103,7 +103,7 @@ function Portfolio() {
                     </Col >
                     <br />
                     <Col size="lg-12">                                
-                    <img src="./assets/images/BurgerApp_Screenshot.png" alt="BurgerApp" className="img"/> 
+                    <img src="./assets/images/BurgerApp_Screenshot.png" alt="BurgerApp" className="burger"/> 
                     </Col>
                 </Row>
 

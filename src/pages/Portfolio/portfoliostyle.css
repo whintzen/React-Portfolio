@@ -1,4 +1,14 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  html, body {
+    height:100%;
+  }
 
 
 body {
@@ -12,7 +22,11 @@ body {
     padding: 20px;
 }
 
-  
+  /* Set the spacing between the links */
+.navbar {  
+    display: block;
+    text-decoration: none; 
+  } 
   /* Set the spacing between the links */
 .navbar ul {
     padding-right: 15px;
@@ -63,26 +77,36 @@ color: mediumblue;
 }
 
 .generator  {
-  width: 900px;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
 
 .project ul {
     text-align: center;
 }
 .codequiz {
-   width: 900px;
-   height: 600px;   
+   max-width: 100%;
+   height: auto;   
 }
 
 .project1 {
-    width: 900px;
-    height: 600px   
+   max-width: 100%;
+   height: auto;   
+}
+
+.burger {
+    max-width: 100%;
+    height: auto;
 }
 
 .socialhr {
-    width: 95%;
+    border-top: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 15px; 
+    width: 95%; 
 }
+
   
 .connect {
     text-align: center ;
