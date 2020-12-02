@@ -3,9 +3,6 @@ import Navbar from "../../components/Navbar";
 import Container from "../../components/Container";
 import Col from  "../../components/Col";
 import Row from "../../components/Row";
-// import Anchor from "../../components/Anchor";
-// import { SocialIcon } from 'react-social-icons';
-
 import "./homestyle.css";
 
 function Home() {
