@@ -16,7 +16,7 @@ function About() {
                         <hr /> 
                 </Col>   
                 <Col size="lg-6">
-                    <h4 class="display-5">Additional experience:</h4>
+                    <h4 className="display-5">Additional experience:</h4>
                     <p className="bio">                    
                     An analytical and meticulous IT business professional with demonstrated expertise in strategic planning,
                     business-IT strategy alignment, business transformation, systems integration, program/project management,
@@ -46,18 +46,18 @@ function About() {
                 </Col>
                 </Row>  
             </Container>
-            <Row className="text-center">
-                <Col size="md-12">                
-                    <hr className="socialhr"/>
-                    <h2 className="connect">Connect</h2>                
-                </Col>
-                
-                <Col size="md-4"></Col>
-                <Col size="md-4 social">             
-                    <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
-                </Col>
-                <Col size="md-4"></Col>                
-            </Row>     
+                <Row className="text-center">
+                    <Col size="md-12">                
+                        <hr className="socialhr"/>
+                        <h2 className="connect">Connect</h2>                
+                    </Col>
+                    
+                    <Col size="md-4"></Col>
+                    <Col size="md-4 social">             
+                        <a href="https://www.linkedin.com/in/wendy-hintzen-999b7583/" target="_blank" rel="noreferrer" className="fa fa-linkedin"> </a>                                 
+                    </Col>
+                    <Col size="md-4"></Col>                
+                </Row>     
         </div>
      );
 }
